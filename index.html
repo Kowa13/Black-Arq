@@ -11,41 +11,65 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
     </style>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body class="fondo">
-    <div class="parent">
-        <div class="div1"> 
-            <header class="header">
-                <a href="index.html">
-                    <img class="logo" src="./img/Logo.png" alt="Logo Black Arq">
-                </a>
-                <!--NAVEGADOR DE LA PÁGINA-->
-                <nav class="animate__animated animate__backInRight">
-                    <ul class="enlace">
-                        <li><a class="enlaces" href="./Pages/estudio.html">ESTUDIO</a></li>
-                        <li><a class="enlaces" href="./Pages/galería.html">GALERÍA</a></li>
-                        <li><a class="enlaces" href="./Pages/contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
-        <div class="div2">
-            <a class="miniatura" href="./Pages/principal_izquierda.html">
-                <img  class="contenido__flecha" src="./img/flecha izq.png" alt="Logo Black Arq">
+    <div class="div1"> 
+        <header class="header">
+            <a href="index.html">
+                <img class="logo" src="./img/Logo.png" alt="Logo Black Arq">
             </a>
-        </div>
-        <div class="div3">
-            <h1 class="contenido__título">BLACK VILLA</h1>
-            <h2 class="contenido__ubicación">New York</h2>
-            <a class="contenido__enter" href="./Pages/2.html">
-            <h2 class="animate__animated animate__fadeIn" >Ver Proyecto</h2></a>
-        </div>
-        <div class="div4">            
-            <a class="miniatura" href="./Pages/principal_derecha.html">
-            <img  class="contenido__flecha" src="./img/flecha.png" alt="flecha">
-            </a>
-        </div>
+            <!--NAVEGADOR DE LA PÁGINA-->
+            <nav class="animate__animated animate__backInRight">
+                <ul class="enlace">
+                    <li><a class="enlaces" href="./Pages/estudio.html">ESTUDIO</a></li>
+                    <li><a class="enlaces" href="./Pages/galería.html">GALERÍA</a></li>
+                    <li><a class="enlaces" href="./Pages/contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
     </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/fondo.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1 class="contenido__título">BLACK VILLA</h1>
+                    <h2 class="contenido__ubicación">New York</h2>
+                    <a class="contenido__enter" href="./Pages/2.html">
+                    <h2>Ver Proyecto</h2></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/fondoizq.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1 class="contenido__título">SKY POINT VILLA</h1>
+                    <h2 class="contenido__ubicación">Bedford Hills</h2>
+                    <a class="contenido__enter" href="./Pages/2.html">
+                    <h2>Ver Proyecto</h2></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/fondoder.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1 class="contenido__título">BLACK DESERT HOUSE</h1>
+                    <h2 class="contenido__ubicación">Twentynine Palms</h2>
+                    <a class="contenido__enter" href="./Pages/2.html">
+                    <h2>Ver Proyecto</h2></a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
     <!--FOOTER DE LA PÁGINA-->
     <footer class="footer">
         <p class="derechos">© 2022. Todos los derechos reservados.</p>
@@ -72,5 +96,7 @@
             </li> 
         </ul>
     </footer> 
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
