@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* BLACK VILLA */
+.fondo1 {
+  background-color: black; }
+  .fondo1 .contenedor {
+    display: flex;
+    flex-direction: column; }
+    .fondo1 .contenedor .fila1 {
+      display: flex;
+      flex-direction: row; }
+      .fondo1 .contenedor .fila1 .parrafo1 {
+        width: 100%; }
+        .fondo1 .contenedor .fila1 .parrafo1 .título {
+          font-family: 'Montserrat', sans-serif;
+          color: white;
+          padding: 10px; }
+        .fondo1 .contenedor .fila1 .parrafo1 p {
+          font-family: 'Montserrat', sans-serif;
+          color: white;
+          padding: 10px; }
+      .fondo1 .contenedor .fila1 .imagendes {
+        width: 100%; }
+    .fondo1 .contenedor .fila2 {
+      display: flex;
+      flex-direction: row; }
+      .fondo1 .contenedor .fila2 .parrafo2 {
+        width: 100%; }
+        .fondo1 .contenedor .fila2 .parrafo2 p {
+          font-family: 'Montserrat', sans-serif;
+          color: white;
+          padding: 10px; }
+      .fondo1 .contenedor .fila2 .imagendes {
+        width: 100%; }
