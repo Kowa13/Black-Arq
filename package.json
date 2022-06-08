@@ -1,0 +1,24 @@
+{
+  "name": "black-arq1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss sass/index.scss css/translated.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kowa13/Black-Arq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kowa13/Black-Arq/issues"
+  },
+  "homepage": "https://github.com/Kowa13/Black-Arq#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

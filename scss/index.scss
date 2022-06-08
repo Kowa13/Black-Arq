@@ -1,0 +1,44 @@
+/* BLACK VILLA */
+
+.fondo1{
+    background-color: black;
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        .fila1{
+            display: flex;
+            flex-direction: row;
+            .parrafo1{
+                width: 100%;
+                .título{ 
+                    font-family: 'Montserrat', sans-serif;
+                    color: white;
+                    padding: 10px;
+                }
+                p { 
+                    font-family: 'Montserrat', sans-serif;
+                    color: white;
+                    padding: 10px;
+                }
+            }
+            .imagendes{
+                width: 100% ;
+            }
+        }
+        .fila2{
+            display: flex;
+            flex-direction: row;
+            .parrafo2{
+                width: 100%;
+                p { 
+                    font-family: 'Montserrat', sans-serif;
+                    color: white;
+                    padding: 10px;
+                }
+            }
+            .imagendes{
+                width: 100% ;
+            }
+        }
+    }
+}
