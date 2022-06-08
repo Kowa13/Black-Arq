@@ -1,5 +1,38 @@
 @charset "UTF-8";
-/* BLACK VILLA */
+/* NORMALIZE */
+/* ANIMATIONS */
+/* COLORS */
+/* FOOTER */
+.footer {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  margin-top: auto; }
+  .footer .derechos {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    margin-left: 50px;
+    padding-top: 20px; }
+  .footer .ícono {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none; }
+    .footer .ícono li a .íconos {
+      height: 30px;
+      width: 30px; }
+
+/* HEADER */
+.logo {
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 40px; }
+
+.navbar-nav a {
+  font-size: 18px; }
+
+/* PROYECTO */
 .fondo1 {
   background-color: black; }
   .fondo1 .contenedor {

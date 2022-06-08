@@ -1,0 +1,29 @@
+/* FOOTER */
+.footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin-top: auto;
+    .derechos{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        display: flex;
+        margin-left: 50px;
+        padding-top: 20px;
+    }
+    .ícono{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        list-style: none;
+        li a .íconos{
+            height: 30px;
+            width: 30px;
+        }
+    }
+}
+    
+
+
+
+
