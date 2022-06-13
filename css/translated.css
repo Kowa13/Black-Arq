@@ -1,7 +1,26 @@
 @charset "UTF-8";
 /* NORMALIZE */
 /* ANIMATIONS */
-/* COLORS */
+:root {
+  /* COLORS */
+  /* SPACINGS */
+  /* FONT FAMILY */
+  /* FONT SIZES*/ }
+
+/* HEADER */
+.logo {
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 40px; }
+
+.navbar-brand {
+  height: 50px;
+  width: 50px;
+  height: 50px; }
+
+.navbar-nav a {
+  font-size: 18px; }
+
 /* FOOTER */
 .footer {
   background-color: black;
@@ -22,15 +41,6 @@
     .footer .ícono li a .íconos {
       height: 30px;
       width: 30px; }
-
-/* HEADER */
-.logo {
-  height: 50px;
-  margin-top: 25px;
-  margin-left: 40px; }
-
-.navbar-nav a {
-  font-size: 18px; }
 
 /* PROYECTO */
 .fondo1 {
