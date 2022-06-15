@@ -1,0 +1,32 @@
+/* MAIN */
+.bg-light{
+    background-color: transparent !important;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.extend{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.9;
+}
+.carousel-caption{
+    margin-bottom: 150px;
+    h5{
+        @extend .extend;
+        font-size: 45px;
+        margin-top: 25px;
+    }
+    p{
+        @extend .extend;
+        width: 60%;
+        margin: auto;
+        font-size: 18px;
+    }
+    a{
+        @extend .extend;
+        text-decoration: none;
+        color: map-get($colors, terciary);
+    }
+}

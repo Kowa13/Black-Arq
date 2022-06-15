@@ -15,7 +15,7 @@
 } */
 
 
-/* MAIN */
+/* MAIN
 .bg-light{
     background-color: transparent !important;
 }
@@ -43,7 +43,7 @@
     text-transform: uppercase;
     text-decoration: none;
     color: white;
-}
+} */
 
 /* BLACK VILLA
 
@@ -144,7 +144,7 @@ padding-top: 20px;
 } */
 
 
-/* PÁGINA ESTUDIO */
+/* PÁGINA ESTUDIO
 
 .fondoEstudio{
     background-color: black;
@@ -168,9 +168,9 @@ padding-top: 20px;
 
 .Luigi{
     padding-bottom: 20px;
-}
+} */
 
-/* PÁGINA ESTUDIO */
+/* PÁGINA ESTUDIO
 
 .proyectos{
     font-family: 'Montserrat', sans-serif;
@@ -189,9 +189,9 @@ padding-top: 20px;
 
 .imagenBV{
     width: 33%;
-}
+} */
 
-/* PÁGINA CONTACTO */
+/* PÁGINA CONTACTO
 
 .iconoContacto{
     width: 70px;
@@ -281,7 +281,7 @@ padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
     color: white;
     background-color: black;
-}
+} */
 
 
 
