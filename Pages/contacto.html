@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/translated.css"> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+    </style>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="fondoEstudio">
+    <!--HEADER DE LA PÁGINA-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../img/Logo.png" alt="Logo Black Arq">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../Pages/estudio.html">ESTUDIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../Pages/galería.html">GALERÍA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../Pages/contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!--CONTACTO-->
+    <section class="contacto">
+        <div>
+            <img class="iconoContacto" src="../img/arquitecto.png" alt="arquitecto">
+            <img class="iconoContacto" src="../img/mail.png" alt="">
+        </div>
+        <div>
+            <p class="pa">LUIGI CUNIETTI</p>
+            <p class="pa">luigicunietti@gmail.com</p>
+        </div>
+    </section>
+    <!--FORMULARIO-->
+    <section>
+        <h1 class="ayudarte">PERMÍTENOS SABER EN QUÉ PODEMOS AYUDARTE</h1>
+        <form action="index.js" method="get"> 
+            <div class="formulario1">
+                <label for="Nombre"></label>
+                <input class="item" type="text" name="Nombre" placeholder="NOMBRE" required>
+
+                <label for="Apellido"></label>
+                <input class="item" type="text" name="Apellido" placeholder="APELLIDO" required><br>
+
+                <label for="mail"></label>
+                <input class="item" type="email" name="mail" placeholder="E-MAIL" required>
+
+                <label for="n° telefono"></label>
+                <input class="item" type="number" name="n° telefono" placeholder="N° TELÉFONO"><br>
+
+                <label for="País"></label>
+                <input class="item" type="text" name="País" placeholder="PAÍS">
+
+                <label for="Provincia"></label>
+                <input class="item" type="text" name="Provincia" placeholder="PROVINCIA"><br>
+
+                <textarea class="item1" class="formulario" name="texto" id="" placeholder="CONSULTA" cols="30" rows="10"></textarea><br>
+
+            <div class="formulario2">
+                <section>
+                    <p>De dónde nos conoce:</p>
+                    <input type="radio" id="Publicidad" name="lugar" value="Publicidad">
+                    <label for="Publicidad">Publicidad</label><br>
+                    <input type="radio" id="Recomendación" name="lugar" value="Recomendación">
+                    <label for="Recomendación">Recomendación</label><br>
+                    <input type="radio" id="Redes Sociales" name="lugar" value="Redes Sociales">
+                    <label for="Redes Sociales">Redes Sociales</label><br>
+                </section>
+                <section>
+                    <label for="Género">Género:</label>
+                    <select class="genero" name="Género" id="Género">
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                    </select>
+                </section>
+                <section class="terminos">
+                    <input type="checkbox" id="Términos y condiciones" name="Terminos y condiciones" value="Términos y condiciones" required>
+                    <label for="Términos y condiciones"> Términos y condiciones</label><br>
+                </section>
+            </div>
+            <div class="formulario3">
+                <input class="borrar"  type="reset" value="Borrar">
+                <input class="borrar" type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+    <!--FOOTER DE LA PÁGINA-->
+    <footer class="footer">
+        <p class="derechos">© 2022. Todos los derechos reservados.</p>
+        <ul class="ícono">
+            <li>
+                <a href="https://www.instagram.com">
+                    <img class="íconos" src="../img/instagram.png" alt="Logo instagram">
+                </a>
+            </li> 
+            <li>
+                <a href="https://www.linkedin.com">
+                    <img class="íconos" src="../img/linkedin.png" alt="Logo linkedin">
+                </a>
+             </li> 
+             <li>
+                <a href="https://www.facebook.com">
+                    <img class="íconos" src="../img/facebook.png" alt="Logo linkedin">
+                </a>
+             </li> 
+             <li>
+                <a href="https://www.twitter.com">
+                    <img class="íconos" src="../img/twitter.png" alt="Logo twitter">
+                </a>
+            </li> 
+        </ul>
+
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
