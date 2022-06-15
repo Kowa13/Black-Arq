@@ -12,9 +12,7 @@
         padding-top: 20px;
     }
     .ícono{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
+        @include flex(row, flex-end, flex-start)
         list-style: none;
         li a .íconos{
             height: 30px;
