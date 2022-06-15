@@ -1,6 +1,6 @@
 /* PROYECTO */
 .fondo1{
-    background-color: black;
+    background-color: map-get($colors, primary);
     .contenedor{
         display: flex;
         flex-direction: column;
@@ -11,12 +11,12 @@
                 width: 100%;
                 .título{ 
                     font-family: 'Montserrat', sans-serif;
-                    color: white;
+                    color: map-get($colors, secondary);
                     padding: 10px;
                 }
                 p { 
                     font-family: 'Montserrat', sans-serif;
-                    color: white;
+                    color: map-get($colors, secondary);
                     padding: 10px;
                 }
             }
@@ -31,7 +31,7 @@
                 width: 100%;
                 p { 
                     font-family: 'Montserrat', sans-serif;
-                    color: white;
+                    color: map-get($colors, secondary);
                     padding: 10px;
                 }
             }

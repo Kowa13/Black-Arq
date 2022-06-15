@@ -5,6 +5,11 @@ $colors: (
     text-color: white
 );
 
+@each $color, $value in $colors {
+    .#{$color} {
+        color: #{$value};
+    }    
+}
 /* SPACINGS */
 $spacing-small: 2.5rem;
 

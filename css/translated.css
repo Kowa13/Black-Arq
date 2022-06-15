@@ -2,6 +2,15 @@
 /* NORMALIZE */
 /* ANIMATIONS */
 /* COLORS */
+.primary {
+  color: black; }
+
+.secondary {
+  color: white; }
+
+.text-color {
+  color: white; }
+
 /* SPACINGS */
 /* FONT FAMILY */
 /* FONT SIZES*/

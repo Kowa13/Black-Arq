@@ -1,12 +1,12 @@
 /* FOOTER */
 .footer{
-    background-color: black;
+    background-color: map-get($colors, primary);
     height: 100px;
     width: 100%;
     margin-top: auto;
     .derechos{
         font-family: 'Montserrat', sans-serif;
-        color: white;
+        color: map-get($colors, secondary);
         display: flex;
         margin-left: 50px;
         padding-top: 20px;
