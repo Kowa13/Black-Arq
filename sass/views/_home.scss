@@ -5,6 +5,9 @@
 .carousel-item{
     height: 100vh;
     min-height: 300px;
+    .imgCarrusel{
+        width: 100%;
+    }
 }
 .extend{
     text-transform: uppercase;

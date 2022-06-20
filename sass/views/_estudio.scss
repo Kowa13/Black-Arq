@@ -1,19 +1,37 @@
 /* PÁGINA ESTUDIO */
-.proyectos{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
+
+.fondoEstudio{
+    background-color: black;
+    .contenidoEstudio{
+        display: flex;
+        margin-top: 100px;
+        .fotoLuigi{
+            width: 90%;
+        }
+    }
+    .artículo{
+        padding: 20px;
+        background-color: black;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+    .artículo{
+        padding: 20px;
+        background-color: black;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        .Luigi{
+            padding-bottom: 20px;
+        }
+    }
 }
 
-.galería{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    margin: 20px 0px 15px 50px;
-    display: flex
-}
 
-.imagenBV{
-    width: 33%;
-} 
+
+
+
+
+
+
+ 
+

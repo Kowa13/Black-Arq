@@ -18,18 +18,16 @@
 /* FONT FAMILY */
 /* FONT SIZES*/
 /* HEADER */
-.logo {
-  height: 50px;
-  margin-top: 25px;
-  margin-left: 40px; }
-
-.navbar-brand {
-  height: 50px;
-  width: 50px;
-  height: 50px; }
-
-.navbar-nav a {
-  font-size: 18px; }
+.navbar {
+  background-color: rgba(0, 0, 0, 0.411); }
+  .navbar .logo {
+    height: 50px; }
+  .navbar .navbar-brand {
+    height: 50px;
+    width: 50px;
+    height: 50px; }
+  .navbar .navbar-nav a {
+    font-size: 18px; }
 
 /* FOOTER */
 .footer {
@@ -133,21 +131,25 @@
   background-color: black; }
 
 /* PÁGINA ESTUDIO */
-.proyectos {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  margin-top: 100px;
-  display: flex;
-  justify-content: center; }
-
-.galería {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  margin: 20px 0px 15px 50px;
-  display: flex; }
-
-.imagenBV {
-  width: 33%; }
+.fondoEstudio {
+  background-color: black; }
+  .fondoEstudio .contenidoEstudio {
+    display: flex;
+    margin-top: 100px; }
+    .fondoEstudio .contenidoEstudio .fotoLuigi {
+      width: 90%; }
+  .fondoEstudio .artículo {
+    padding: 20px;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white; }
+  .fondoEstudio .artículo {
+    padding: 20px;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white; }
+    .fondoEstudio .artículo .Luigi {
+      padding-bottom: 20px; }
 
 /* PÁGINA GALERÍA */
 .proyectos {
@@ -173,6 +175,8 @@
 .carousel-item {
   height: 100vh;
   min-height: 300px; }
+  .carousel-item .imgCarrusel {
+    width: 100%; }
 
 .extend, .carousel-caption h5, .carousel-caption p, .carousel-caption a {
   text-transform: uppercase;
@@ -213,6 +217,9 @@
           padding: 10px; }
       .fondo1 .contenedor .fila1 .imagendes {
         width: 100%; }
+      .fondo1 .contenedor .fila1 .imagendesSky {
+        width: 100%;
+        height: 50%; }
     .fondo1 .contenedor .fila2 {
       display: flex;
       flex-direction: row; }
