@@ -5,9 +5,18 @@
 .carousel-item{
     height: 100vh;
     min-height: 300px;
-    .imgCarrusel{
-        width: 100%;
-    }
+}
+.bg-1{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+}
+.bg-2{
+    background-image: url(../img/fondoizq.jpg);
+    background-size: cover;
+}
+.bg-3{
+    background-image: url(../img/fondoder.jpg);
+    background-size: cover;
 }
 .extend{
     text-transform: uppercase;
@@ -18,14 +27,16 @@
     margin-bottom: 150px;
     h5{
         @extend .extend;
-        font-size: 45px;
+        font-size: 25px;
         margin-top: 25px;
+        background-color: rgba(0, 0, 0, 0.507);
+        border-radius: 10px;
     }
     p{
         @extend .extend;
         width: 60%;
         margin: auto;
-        font-size: 18px;
+        font-size: 12px;
     }
     a{
         @extend .extend;

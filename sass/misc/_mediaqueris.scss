@@ -1,0 +1,58 @@
+/* MEDIAQUERIS */
+@media (max-width: 480px) {
+    /* FOOTER */
+    .ícono{
+        justify-content: center;
+    }
+    .derechos{
+        justify-content: center;
+    }
+    /* MAIN */
+    .carousel-caption h5{
+        font-size: 10px;
+        z-index: 10;
+    }
+    .carousel-caption p{
+        font-size: 10px
+    }
+    .carousel-caption h2{
+        font-size: 20px
+    } 
+    .contenedor{
+        align-items: center;
+    }
+    .fila1{
+        flex-direction: column; 
+        justify-content: center;
+    }
+    .fila2{
+        flex-direction: column;
+    }
+    .parrafo1 p{
+        width: 100%;
+    }
+    .imgCarrusel{
+        height: 100%;
+    }
+    /* ESTUDIO */
+    .contenidoEstudio{
+        flex-direction: column;
+    }
+    .fotoLuigi{
+        justify-content: center;
+    }
+    .artículo{
+        justify-content: center;
+    }
+    /* GALERÍA */
+    .listas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+    
+    
